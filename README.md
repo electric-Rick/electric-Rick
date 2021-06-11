@@ -17,7 +17,7 @@ function find_erick(person){
 }
 
 
-find_erick(<a href='www.github.com/electric-rick'>'/*Insert your name here*/'</a>)
+find_erick(<a href='/electric-rick'>'/*Insert your name here*/'</a>)
 <!---
 electric-Rick/electric-Rick is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
