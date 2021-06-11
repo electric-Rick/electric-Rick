@@ -5,8 +5,19 @@
 - 📫 You can find me on: erick.augusto.ebs@gmail.com or send me a message via whatsapp.
 Can't find my number? Contact me via e-mail. 
 
+function find_erick(person){
+  if (person.relationship == 'Unknown or client'){
+    return 'Contact-me via e-mail: erick.augusto.ebs@gmail.com' 
+   } else if(person.relationship == 'Friends') {
+     return 'Você me conhece e possui outras redes sociais de contato.'   
+   } else {
+     return 'What kind of person you are?'
+   }
+  return " "
+}
 
 
+find_erick(<a>/*Insert here What Kind of person you are*/</a>)
 <!---
 electric-Rick/electric-Rick is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
